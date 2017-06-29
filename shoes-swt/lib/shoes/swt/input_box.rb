@@ -48,6 +48,10 @@ class Shoes
       def caret_to(index)
         @real.set_selection(index)
       end
+      
+      def focus
+        @real.set_focus()
+      end
 
       private
 
